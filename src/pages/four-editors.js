@@ -60,7 +60,7 @@ const FourEditors = ({ location }) => {
               Four Editors kwam bij ons aan met een bestaande Shopify Store. Wij
               hadden de opdracht om hun store op te schalen. Door de
               beperkingen van het thema hebben ze bij ons speciale aanvragen
-              gedaan voor de site, een custom ontworpen & gecodeerde collectie
+              gedaan voor de site: een custom ontworpen & gecodeerde collectie
               pagina bijvoorbeeld. Voor Four Editors hebben wij ook de snelheid
               van de site voor zowel mobiel als desktop geoptimaliseerd.
             </p>
