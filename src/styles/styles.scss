@@ -1984,6 +1984,9 @@ footer {
   .content__container {
     margin-bottom: 0;
   }
+  .header {
+    height: 90px !important;
+  }
   section.section-six div.main-section-six div.services-container .services-support.service {
     position: inherit !important;
     margin-left: 0px !important;
@@ -3493,7 +3496,7 @@ article.thumbnail-work:nth-of-type(odd) {
   background-color: #f0ece2;
   height: 100vh;
   min-height: 100vh;
-  padding: 0 100px;
+  padding: 0 75px;
 }
 
 @media screen and (max-width: 481px) {
@@ -3512,7 +3515,7 @@ article.thumbnail-work:nth-of-type(odd) {
 }
 @media screen and (max-width: 961px) {
   .contact-container {
-    padding: 0 75px;
+    padding: 0 50px;
   }
 }
 .aanvraag-btn {
@@ -3650,6 +3653,3 @@ margin-top: 5px;
   }
 }
 
-.header {
-  height: 90px !important;
-}
