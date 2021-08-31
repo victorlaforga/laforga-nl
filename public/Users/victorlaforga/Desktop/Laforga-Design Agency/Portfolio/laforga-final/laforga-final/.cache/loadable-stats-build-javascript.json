@@ -1,0 +1,804 @@
+{
+  "hash": "ccdeffa58a246737f854",
+  "publicPath": "/",
+  "outputPath": "/Users/victorlaforga/Desktop/Laforga-Design Agency/Portfolio/laforga-final/laforga-final/public",
+  "assetsByChunkName": {
+    "main": [
+      "render-page.js"
+    ],
+    "reactPlayerYouTube": [
+      "reactPlayerYouTube.render-page.js"
+    ],
+    "reactPlayerSoundCloud": [
+      "reactPlayerSoundCloud.render-page.js"
+    ],
+    "reactPlayerVimeo": [
+      "reactPlayerVimeo.render-page.js"
+    ],
+    "reactPlayerFacebook": [
+      "reactPlayerFacebook.render-page.js"
+    ],
+    "reactPlayerStreamable": [
+      "reactPlayerStreamable.render-page.js"
+    ],
+    "reactPlayerWistia": [
+      "reactPlayerWistia.render-page.js"
+    ],
+    "reactPlayerTwitch": [
+      "reactPlayerTwitch.render-page.js"
+    ],
+    "reactPlayerDailyMotion": [
+      "reactPlayerDailyMotion.render-page.js"
+    ],
+    "reactPlayerMixcloud": [
+      "reactPlayerMixcloud.render-page.js"
+    ],
+    "reactPlayerVidyard": [
+      "reactPlayerVidyard.render-page.js"
+    ],
+    "reactPlayerKaltura": [
+      "reactPlayerKaltura.render-page.js"
+    ],
+    "reactPlayerFilePlayer": [
+      "reactPlayerFilePlayer.render-page.js"
+    ],
+    "reactPlayerPreview": [
+      "reactPlayerPreview.render-page.js"
+    ]
+  },
+  "assets": [
+    {
+      "type": "asset",
+      "name": "static/maneti-dashboard-final-b045cca8b81a335b15002f76dd583c11.mp4",
+      "size": 8974287,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "sourceFilename": "src/assets/maneti-dashboard-final.mp4"
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [
+        "main"
+      ],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [],
+      "auxiliaryChunks": [
+        "main"
+      ]
+    },
+    {
+      "type": "asset",
+      "name": "render-page.js",
+      "size": 2759124,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "javascriptModule": false,
+        "related": {
+          "sourceMap": "render-page.js.map"
+        }
+      },
+      "chunkNames": [
+        "main"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 1,
+      "chunks": [
+        "main"
+      ],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "reactPlayerFilePlayer.render-page.js",
+      "size": 21448,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "javascriptModule": false,
+        "related": {
+          "sourceMap": "reactPlayerFilePlayer.render-page.js.map"
+        }
+      },
+      "chunkNames": [
+        "reactPlayerFilePlayer"
+      ],
+      "chunkIdHints": [
+        "vendors"
+      ],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 1,
+      "chunks": [
+        "reactPlayerFilePlayer"
+      ],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "static/black-logo-bb711faf29ccbee53ac9728e857a94f3.png",
+      "size": 17307,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "sourceFilename": "src/images/black-logo.png"
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [
+        "main"
+      ],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [],
+      "auxiliaryChunks": [
+        "main"
+      ]
+    },
+    {
+      "type": "asset",
+      "name": "reactPlayerYouTube.render-page.js",
+      "size": 15743,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "javascriptModule": false,
+        "related": {
+          "sourceMap": "reactPlayerYouTube.render-page.js.map"
+        }
+      },
+      "chunkNames": [
+        "reactPlayerYouTube"
+      ],
+      "chunkIdHints": [
+        "vendors"
+      ],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 1,
+      "chunks": [
+        "reactPlayerYouTube"
+      ],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "static/shopify-partner-aedac421c72ffc44a2bd182a042f1cd9.png",
+      "size": 15469,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "immutable": true,
+        "sourceFilename": "src/images/shopify-partner.png"
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [
+        "main"
+      ],
+      "auxiliaryChunkIdHints": [],
+      "chunks": [],
+      "auxiliaryChunks": [
+        "main"
+      ]
+    },
+    {
+      "type": "asset",
+      "name": "reactPlayerDailyMotion.render-page.js",
+      "size": 12050,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "javascriptModule": false,
+        "related": {
+          "sourceMap": "reactPlayerDailyMotion.render-page.js.map"
+        }
+      },
+      "chunkNames": [
+        "reactPlayerDailyMotion"
+      ],
+      "chunkIdHints": [
+        "vendors"
+      ],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 1,
+      "chunks": [
+        "reactPlayerDailyMotion"
+      ],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "reactPlayerWistia.render-page.js",
+      "size": 11417,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "javascriptModule": false,
+        "related": {
+          "sourceMap": "reactPlayerWistia.render-page.js.map"
+        }
+      },
+      "chunkNames": [
+        "reactPlayerWistia"
+      ],
+      "chunkIdHints": [
+        "vendors"
+      ],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 1,
+      "chunks": [
+        "reactPlayerWistia"
+      ],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "reactPlayerVimeo.render-page.js",
+      "size": 11048,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "javascriptModule": false,
+        "related": {
+          "sourceMap": "reactPlayerVimeo.render-page.js.map"
+        }
+      },
+      "chunkNames": [
+        "reactPlayerVimeo"
+      ],
+      "chunkIdHints": [
+        "vendors"
+      ],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 1,
+      "chunks": [
+        "reactPlayerVimeo"
+      ],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "reactPlayerSoundCloud.render-page.js",
+      "size": 10561,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "javascriptModule": false,
+        "related": {
+          "sourceMap": "reactPlayerSoundCloud.render-page.js.map"
+        }
+      },
+      "chunkNames": [
+        "reactPlayerSoundCloud"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 1,
+      "chunks": [
+        "reactPlayerSoundCloud"
+      ],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "reactPlayerTwitch.render-page.js",
+      "size": 10518,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "javascriptModule": false,
+        "related": {
+          "sourceMap": "reactPlayerTwitch.render-page.js.map"
+        }
+      },
+      "chunkNames": [
+        "reactPlayerTwitch"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 1,
+      "chunks": [
+        "reactPlayerTwitch"
+      ],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "reactPlayerFacebook.render-page.js",
+      "size": 10067,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "javascriptModule": false,
+        "related": {
+          "sourceMap": "reactPlayerFacebook.render-page.js.map"
+        }
+      },
+      "chunkNames": [
+        "reactPlayerFacebook"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 1,
+      "chunks": [
+        "reactPlayerFacebook"
+      ],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "reactPlayerVidyard.render-page.js",
+      "size": 9976,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "javascriptModule": false,
+        "related": {
+          "sourceMap": "reactPlayerVidyard.render-page.js.map"
+        }
+      },
+      "chunkNames": [
+        "reactPlayerVidyard"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 1,
+      "chunks": [
+        "reactPlayerVidyard"
+      ],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "reactPlayerMixcloud.render-page.js",
+      "size": 9790,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "javascriptModule": false,
+        "related": {
+          "sourceMap": "reactPlayerMixcloud.render-page.js.map"
+        }
+      },
+      "chunkNames": [
+        "reactPlayerMixcloud"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 1,
+      "chunks": [
+        "reactPlayerMixcloud"
+      ],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "reactPlayerPreview.render-page.js",
+      "size": 9714,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "javascriptModule": false,
+        "related": {
+          "sourceMap": "reactPlayerPreview.render-page.js.map"
+        }
+      },
+      "chunkNames": [
+        "reactPlayerPreview"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 1,
+      "chunks": [
+        "reactPlayerPreview"
+      ],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "reactPlayerKaltura.render-page.js",
+      "size": 9287,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "javascriptModule": false,
+        "related": {
+          "sourceMap": "reactPlayerKaltura.render-page.js.map"
+        }
+      },
+      "chunkNames": [
+        "reactPlayerKaltura"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 1,
+      "chunks": [
+        "reactPlayerKaltura"
+      ],
+      "auxiliaryChunks": []
+    },
+    {
+      "type": "asset",
+      "name": "reactPlayerStreamable.render-page.js",
+      "size": 9187,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": true,
+      "info": {
+        "javascriptModule": false,
+        "related": {
+          "sourceMap": "reactPlayerStreamable.render-page.js.map"
+        }
+      },
+      "chunkNames": [
+        "reactPlayerStreamable"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 1,
+      "chunks": [
+        "reactPlayerStreamable"
+      ],
+      "auxiliaryChunks": []
+    }
+  ],
+  "namedChunkGroups": {
+    "main": {
+      "name": "main",
+      "chunks": [
+        "main"
+      ],
+      "assets": [
+        {
+          "name": "render-page.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 4,
+      "auxiliaryAssetsSize": null,
+      "children": {},
+      "childAssets": {}
+    },
+    "reactPlayerYouTube": {
+      "name": "reactPlayerYouTube",
+      "chunks": [
+        "reactPlayerYouTube"
+      ],
+      "assets": [
+        {
+          "name": "reactPlayerYouTube.render-page.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 1,
+      "auxiliaryAssetsSize": null,
+      "children": {},
+      "childAssets": {}
+    },
+    "reactPlayerSoundCloud": {
+      "name": "reactPlayerSoundCloud",
+      "chunks": [
+        "reactPlayerSoundCloud"
+      ],
+      "assets": [
+        {
+          "name": "reactPlayerSoundCloud.render-page.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 1,
+      "auxiliaryAssetsSize": null,
+      "children": {},
+      "childAssets": {}
+    },
+    "reactPlayerVimeo": {
+      "name": "reactPlayerVimeo",
+      "chunks": [
+        "reactPlayerVimeo"
+      ],
+      "assets": [
+        {
+          "name": "reactPlayerVimeo.render-page.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 1,
+      "auxiliaryAssetsSize": null,
+      "children": {},
+      "childAssets": {}
+    },
+    "reactPlayerFacebook": {
+      "name": "reactPlayerFacebook",
+      "chunks": [
+        "reactPlayerFacebook"
+      ],
+      "assets": [
+        {
+          "name": "reactPlayerFacebook.render-page.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 1,
+      "auxiliaryAssetsSize": null,
+      "children": {},
+      "childAssets": {}
+    },
+    "reactPlayerStreamable": {
+      "name": "reactPlayerStreamable",
+      "chunks": [
+        "reactPlayerStreamable"
+      ],
+      "assets": [
+        {
+          "name": "reactPlayerStreamable.render-page.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 1,
+      "auxiliaryAssetsSize": null,
+      "children": {},
+      "childAssets": {}
+    },
+    "reactPlayerWistia": {
+      "name": "reactPlayerWistia",
+      "chunks": [
+        "reactPlayerWistia"
+      ],
+      "assets": [
+        {
+          "name": "reactPlayerWistia.render-page.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 1,
+      "auxiliaryAssetsSize": null,
+      "children": {},
+      "childAssets": {}
+    },
+    "reactPlayerTwitch": {
+      "name": "reactPlayerTwitch",
+      "chunks": [
+        "reactPlayerTwitch"
+      ],
+      "assets": [
+        {
+          "name": "reactPlayerTwitch.render-page.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 1,
+      "auxiliaryAssetsSize": null,
+      "children": {},
+      "childAssets": {}
+    },
+    "reactPlayerDailyMotion": {
+      "name": "reactPlayerDailyMotion",
+      "chunks": [
+        "reactPlayerDailyMotion"
+      ],
+      "assets": [
+        {
+          "name": "reactPlayerDailyMotion.render-page.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 1,
+      "auxiliaryAssetsSize": null,
+      "children": {},
+      "childAssets": {}
+    },
+    "reactPlayerMixcloud": {
+      "name": "reactPlayerMixcloud",
+      "chunks": [
+        "reactPlayerMixcloud"
+      ],
+      "assets": [
+        {
+          "name": "reactPlayerMixcloud.render-page.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 1,
+      "auxiliaryAssetsSize": null,
+      "children": {},
+      "childAssets": {}
+    },
+    "reactPlayerVidyard": {
+      "name": "reactPlayerVidyard",
+      "chunks": [
+        "reactPlayerVidyard"
+      ],
+      "assets": [
+        {
+          "name": "reactPlayerVidyard.render-page.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 1,
+      "auxiliaryAssetsSize": null,
+      "children": {},
+      "childAssets": {}
+    },
+    "reactPlayerKaltura": {
+      "name": "reactPlayerKaltura",
+      "chunks": [
+        "reactPlayerKaltura"
+      ],
+      "assets": [
+        {
+          "name": "reactPlayerKaltura.render-page.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 1,
+      "auxiliaryAssetsSize": null,
+      "children": {},
+      "childAssets": {}
+    },
+    "reactPlayerFilePlayer": {
+      "name": "reactPlayerFilePlayer",
+      "chunks": [
+        "reactPlayerFilePlayer"
+      ],
+      "assets": [
+        {
+          "name": "reactPlayerFilePlayer.render-page.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 1,
+      "auxiliaryAssetsSize": null,
+      "children": {},
+      "childAssets": {}
+    },
+    "reactPlayerPreview": {
+      "name": "reactPlayerPreview",
+      "chunks": [
+        "reactPlayerPreview"
+      ],
+      "assets": [
+        {
+          "name": "reactPlayerPreview.render-page.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 1,
+      "auxiliaryAssetsSize": null,
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "generator": "loadable-components",
+  "chunks": [
+    {
+      "id": "main",
+      "files": [
+        "render-page.js"
+      ]
+    },
+    {
+      "id": "reactPlayerYouTube",
+      "files": [
+        "reactPlayerYouTube.render-page.js"
+      ]
+    },
+    {
+      "id": "reactPlayerSoundCloud",
+      "files": [
+        "reactPlayerSoundCloud.render-page.js"
+      ]
+    },
+    {
+      "id": "reactPlayerVimeo",
+      "files": [
+        "reactPlayerVimeo.render-page.js"
+      ]
+    },
+    {
+      "id": "reactPlayerFacebook",
+      "files": [
+        "reactPlayerFacebook.render-page.js"
+      ]
+    },
+    {
+      "id": "reactPlayerStreamable",
+      "files": [
+        "reactPlayerStreamable.render-page.js"
+      ]
+    },
+    {
+      "id": "reactPlayerWistia",
+      "files": [
+        "reactPlayerWistia.render-page.js"
+      ]
+    },
+    {
+      "id": "reactPlayerTwitch",
+      "files": [
+        "reactPlayerTwitch.render-page.js"
+      ]
+    },
+    {
+      "id": "reactPlayerDailyMotion",
+      "files": [
+        "reactPlayerDailyMotion.render-page.js"
+      ]
+    },
+    {
+      "id": "reactPlayerMixcloud",
+      "files": [
+        "reactPlayerMixcloud.render-page.js"
+      ]
+    },
+    {
+      "id": "reactPlayerVidyard",
+      "files": [
+        "reactPlayerVidyard.render-page.js"
+      ]
+    },
+    {
+      "id": "reactPlayerKaltura",
+      "files": [
+        "reactPlayerKaltura.render-page.js"
+      ]
+    },
+    {
+      "id": "reactPlayerFilePlayer",
+      "files": [
+        "reactPlayerFilePlayer.render-page.js"
+      ]
+    },
+    {
+      "id": "reactPlayerPreview",
+      "files": [
+        "reactPlayerPreview.render-page.js"
+      ]
+    }
+  ]
+}
