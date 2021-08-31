@@ -24,7 +24,7 @@ const MainSectionSeven = ({ lang }) => {
             <a href="/contact/" className="underline">
               contact
             </a>{" "}
-            met ons op
+            met ons op.
           </p>
         </div>
         <div className="services" ref={ref}>
@@ -85,7 +85,7 @@ const MainSectionSeven = ({ lang }) => {
               <li>Wereldwijde concurrenten analyse</li>
               <li>Exclusief ontwerp!</li>
               <li>Geoptimaliseerde webshop</li>
-              <li>Gebouwd & ontwporpen speciaal voor je bedrijf</li>
+              <li>Gebouwd & ontworpen speciaal voor je bedrijf</li>
             </ul>
             <div className="container-services--footer">
               <a href="/aanvraag/">Vraag offerte aan</a>
@@ -107,13 +107,13 @@ const MainSectionSeven = ({ lang }) => {
               je thema’s? Dan ben je bij ons op het juiste adres. Wij maken
               custom pagina’s en onderdelen voor jouw webshop. Voel je nooit
               beperkt! Wij zijn in staat om jouw digitale wensen tot vervulling
-              laten komen. Neem contact met ons op dan kunnen we kijken wat wij
+              laten komen. Neem contact met ons, op dan kunnen we kijken wat wij
               voor je kunnen betekenen!
             </p>
             <p>
               Wij zijn ook gespecialiseerd in website snelheid optimalisatie.
               Bij het optimaliseren van de snelheid staan wij garant voor
-              succes. Is de afgesproken snelheids score niet behaald? = Geld
+              succes. Is de afgesproken snelheidsscore niet behaald? = Geld
               terug
             </p>
             <div className="container-services--footer">
@@ -133,7 +133,7 @@ const MainSectionSeven = ({ lang }) => {
           <h3 className="h2">Our services</h3>
           <p>
             We love transparency and honesty. That is why we are open about our
-            prices and services. Reaching your full potential shouldn't make you bankrupt. Do you have specific questions? {""}
+            prices and services. Reaching your full potential should not make you bankrupt. Do you have specific questions? {""}
             <a href="/en/contact/" className="underline">
               Contact
             </a>{" "}

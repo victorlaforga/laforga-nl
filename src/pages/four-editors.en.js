@@ -58,8 +58,8 @@ const FourEditors = ({ location }) => {
             <h3>FourEditors</h3>
             <p>
               Four Editors came to us with an existing Shopify Store. We had the
-              assignment to scale up with them. Due to the limitations of the
-              theme they made special requests for the site, a custom designed &
+              assignment to scale their store up. Due to the limitations of the
+              theme, they made special requests for the site; a custom designed &
               coded collection page for example. For Four Editors, we also
               optimized the site speed for both mobile and desktop.
             </p>

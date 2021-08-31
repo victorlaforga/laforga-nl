@@ -48,7 +48,7 @@ const AerialWork = ({ location }) => {
             <h3>Aerial Acces</h3>
             <p>
               In collaboration with Marinade Studios we have renewed the
-              complete site & brandind for Aerial Access. Marinade Studios has
+              complete site & branding for Aerial Access. Marinade Studios has
               been responsible for the design, corporate identity & branding. We
               took care of the development & design of mobile screens. For this
               we have created a custom site that has been built from scratch. We

@@ -61,7 +61,7 @@ const Maglashic = ({ location }) => {
             <h3>Maglashic</h3>
             <p>
               MagLashic kwam bij ons aan met een bestaande Shopify Store. Ze
-              verkochten al goed en wouden met ons opschalen. Door de
+              verkochten al goed en wilden hun store opschalen. Door de
               beperkingen van het thema hebben ze bij ons speciale aanvragen
               gedaan zoals een 100% custom winkelwagen, een custon FAQ sectie,
               Add to cart knoppen op specifieke plekken & de snelheid van de

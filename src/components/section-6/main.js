@@ -88,7 +88,7 @@ const MainSectionSix = ({ lang }) => {
                 factor is bij het omzetten van bezoekers in klanten. Met een
                 jong, fris & ambitieus team zijn wij op de hoogte van de laatste
                 trends & ontwerpen wij de meest moderne websites & webshops. Met
-                innovatieve ontwerpoplossingen zorgen we ervoor dat uw winkel uw
+                innovatieve ontwerpoplossingen zorgen we ervoor dat je winkel jouw
                 klanten aanspreekt. We combineren design en digitale innovatie
                 om emotie en verhalen te creëren.
               </p>
@@ -102,7 +102,7 @@ const MainSectionSix = ({ lang }) => {
                 gebruiksvriendelijkheid en de prestaties van de winkels. Ons
                 team brengt designs tot leven. Snel en geoptimaliseerd voor
                 maximale conversie. We ontwikkelen voor het nu en bouwen voor de
-                toekomst. . Met behulp van moderne technologieën bouwen we
+                toekomst. Met behulp van moderne technologieën bouwen we
                 flexibele en schaalbare oplossingen.
               </p>
             </div>
@@ -118,13 +118,13 @@ const MainSectionSix = ({ lang }) => {
                 je beperkt door je thema’s? Dan ben je bij ons op het juiste
                 adres. Wij maken custom pagina’s en onderdelen voor jouw
                 webshop. Voel je nooit beperkt! Wij zijn in staat om jouw
-                digitale wensen tot vervulling laten komen. Neem contact met ons
-                op dan kunnen we kijken wat wij voor je kunnen betekenen!
+                digitale wensen te vervullen. Neem contact met ons
+                op, dan kunnen we kijken wat wij voor je kunnen betekenen!
               </p>
               <p>
                 Wij zijn ook gespecialiseerd in website snelheid optimalisatie.
                 Bij het optimaliseren van de snelheid staan wij garant voor
-                succes. Is de afgesproken snelheids score niet gehaald? = Geld
+                succes. Is de afgesproken snelheidsscore niet gehaald? = Geld
                 terug
               </p>
             </div>
@@ -195,9 +195,9 @@ const MainSectionSix = ({ lang }) => {
                 Strategy<span id="number">1</span>
               </h3>
               <p>
-              We only succeed when you succeed. We empathize & put ourselves completely in the client's shoes, and try to think from their perspective . We spend quality time with our clients to
+              We only succeed when you succeed. We empathize & put ourselves completely in your shoes, and try to think from your perspective. We spend quality time with our clients to
                 dive deep and discover what their brand really stands for. In addition, our UX designers analyze the competition and discover how to
-                 get ahead of them.
+                 get ahead of of the competition.
               </p>
             </div>
             <div className={`services-design service`}>

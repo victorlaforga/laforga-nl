@@ -60,10 +60,10 @@ const Maglashic = ({ location }) => {
             <h3>Maglashic</h3>
             <p>
               MagLashic came to us with an existing Shopify Store. They were
-              already selling very good and wanted to scale up with us. Due to the
-              limitations of the theme, they have made special requests with us
+              already selling very well and wanted to scale up with us. Due to the
+              limitations of the theme, they have made special requests with us,
               such as a 100% custom shopping cart, a custom FAQ section, Add to
-              cart buttons in specific places & optimizing the speed of the
+              cart buttons in specific places & we optimized the speed of the
               website. These are some examples of functions & features that we
               have applied to increase conversion.
             </p>
@@ -92,7 +92,7 @@ const Maglashic = ({ location }) => {
             {" "}
             We are very pleased with the result. Laforga listens well and has a
             feeling for what you want. Excellent service, fast, professional,
-            creative, solution-oriented, and personal. Never be afraid to take
+            creative, solution-oriented, and personal. Never afraid to take
             those extra steps.
           </p>
         </div>

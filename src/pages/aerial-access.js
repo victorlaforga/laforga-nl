@@ -21,7 +21,7 @@ const AerialWork = ({ location }) => {
         image={metaImage}
         title="Aerial Access"
         description="Door het gebruik van gespecialiseerde rope access technieken is
-              Aerial Access in staat op moeilijke toegankelijke locaties
+              Aerial Access in staat op moeilijk toegankelijke locaties
               werkzaamheden uit te voeren."
         pathname={location.pathname}
       />
@@ -43,7 +43,7 @@ const AerialWork = ({ location }) => {
           <div className="subtext">
             <h2>
               Door het gebruik van gespecialiseerde rope access technieken is
-              Aerial Access in staat op moeilijke toegankelijke locaties
+              Aerial Access in staat op moeilijk toegankelijke locaties
               werkzaamheden uit te voeren.
             </h2>
           </div>
@@ -51,12 +51,12 @@ const AerialWork = ({ location }) => {
             <h3>Aerial Acces</h3>
             <p>
               In samenwerking met Marinade Studios hebben wij voor Aerial Access
-              de complete site & brandind vernieuwd. Marinade Studios is
+              de complete site & branding vernieuwd. Marinade Studios is
               verantwoordelijk geweest voor het ontwerp, huisstijl & branding.
               Wij hebben voor het development & het ontwerp van mobiele schermen
               gezorgd. Hiervoor hebben wij een custom site gemaakt die vanaf
               scratch is gebouwd. Wij zijn trots op dit werk omdat het volledig
-              zelf ontworpen is, dit wil zeggen dat deze site een exclusief
+              custom ontworpen is. Dit wil zeggen dat deze site een exclusief
               ontwerp heeft die nergens anders te bekennen is. Hierdoor krijgt
               Aerial Access een eigen verhaal.
             </p>

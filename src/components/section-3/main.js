@@ -96,7 +96,7 @@ const MainSectionThree = ({ lang }) => {
             <a className="cool-link underline" href="#diensten-prijzen">
               services
             </a>{" "}
-            you get a free Shopify course which we explain everything you need to know within just an hour!
+            you get a free Shopify course in which we explain everything you need to know within just an hour!
           </p>
         </div>
         <div id="video-container">

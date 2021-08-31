@@ -121,7 +121,7 @@ const SectionWork = ({ lang }) => {
                     <h3>T&M Tweewielers</h3>
                     <p>
                       De grootste scooter & fietsenwinkel van Haarlem met het
-                      meeste aanbod!
+                      grootste aanbod!
                     </p>
                   </a>
                 </div>
@@ -138,7 +138,7 @@ const SectionWork = ({ lang }) => {
                   <a href="/aerial-access/">
                     <h3>Aerial Access</h3>
                     <p>
-                      Aerial Access is in staat op moeilijke toegankelijke
+                      Aerial Access is in staat op moeilijk toegankelijke
                       locaties werkzaamheden uit te voeren.
                     </p>
                   </a>

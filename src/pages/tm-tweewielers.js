@@ -30,7 +30,7 @@ const TmTweewielers = ({ location }) => {
         pathname={location.pathname}
         image={metaImage}
         title="T&M Tweewielers"
-        description="T&M Tweewielers is de grootste tweewielers winkel in Haarlem.
+        description="T&M Tweewielers is de grootste tweewieler winkel in Haarlem.
               Experts in het repareren & verkopen van fietsen en scooters."
       />
       <div className="container-banner tm">
@@ -50,7 +50,7 @@ const TmTweewielers = ({ location }) => {
         <div className="work-main--info">
           <div className="subtext">
             <h2>
-              T&M Tweewielers is de grootste tweewielers winkel in Haarlem.
+              T&M Tweewielers is de grootste tweewieler winkel in Haarlem.
               Experts in het repareren & verkopen van fietsen en scooters.
             </h2>
           </div>

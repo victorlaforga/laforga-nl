@@ -57,7 +57,7 @@ const TmTweewielers = ({ location }) => {
           <div className="main-text">
             <h3>T&M Tweewielers</h3>
             <p>
-              For T&M Tweewielers took care of everything. We have a new logo,
+              For T&M Tweewielers we took care of the whole webshop. We have a new logo,
               new corporate identity, and transformed their retail store into a
               webshop to grow in this digital age . So they now have 2 points of
               sale, physical and digital, which provides extra income.{" "}

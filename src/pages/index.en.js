@@ -41,7 +41,7 @@ const IndexPage = ({ location }) => {
         lang="en"
         image={metaImage}
         title="Laforga | E-commerce Agency"
-        description="Start selling online with Shopify today or scale your store with custom features. We turn brands and companies into online legends. Reaching your full potential shouldn't put you down. E-commerce agency."
+        description="Start selling online with Shopify today or scale your store with custom features. We turn brands and companies into online legends. Reaching your full potential should not put you down. E-commerce agency."
         pathname={location.pathname}
       />
       <AccessProvider lang="en">
