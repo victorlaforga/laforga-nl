@@ -21,7 +21,7 @@ const MainSectionTwo = ({ lang }) => {
           </div>
           <p>
             We maken het eenvoudig om uw producten online te verkopen. Als u net
-            aan je handelsreis begint, online overstapt of een nieuwe
+            aan uw handelsreis begint, online overstapt of een nieuwe
             productlijn maakt, kunnen uw online winkel binnen de kortste tijd
             helemaal opzetten.{" "}
           </p>

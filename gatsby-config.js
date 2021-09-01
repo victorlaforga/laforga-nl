@@ -24,7 +24,7 @@ module.exports = {
       "Ecommerce website"
     ],
     description:
-      "Begin vandaag nog met online verkopen met Shopify of schaal je winkel op met custom features. Wij zetten merken en bedrijven om in online legendes. Het bereiken van je volledige potentie zou je niet in de min moeten zetten. Wij zijn een innovatieve E-commerce Agency",
+      "Begin vandaag nog met online verkopen met Shopify of schaal uw winkel op met custom features. Wij zetten merken en bedrijven om in online legendes. Het bereiken van uw volledige potentie zou uw niet in de min moeten zetten. Wij zijn een innovatieve E-commerce Agency",
     siteUrl: "https://www.laforga.nl",
   },
   plugins: [

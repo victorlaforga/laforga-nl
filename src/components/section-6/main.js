@@ -16,7 +16,7 @@ const MainSectionSix = ({ lang }) => {
             <div className="services-intro-text">
               <h3>Wat doen wij?</h3>
               <p>
-                Wij helpen jou in alle fasen van de realisatie van je digitale
+                Wij helpen u in alle fasen van de realisatie van uw digitale
                 project.
               </p>
             </div>
@@ -113,11 +113,11 @@ const MainSectionSix = ({ lang }) => {
               </h3>
 
               <p>
-                Heb je al een{" "}
+            Heeft u al een{" "}
                 <span className="bold">bestaande Shopify store</span> en voelt u
                 zich beperkt door de thema’s? Dan bent u bij ons op het juiste
                 adres. Wij maken custom pagina’s en onderdelen voor uw
-                webshop. Voel je nooit beperkt! Wij zijn in staat om uw
+                webshop. Voel u nooit beperkt! Wij zijn in staat om uw
                 digitale wensen te vervullen. Neem contact met ons
                 op, dan kunnen we kijken wat wij voor uw kunnen betekenen!
               </p>
