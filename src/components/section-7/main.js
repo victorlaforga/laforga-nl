@@ -19,7 +19,7 @@ const MainSectionSeven = ({ lang }) => {
           <p>
             Wij houden van transparantie en eerlijkheid. Vandaar dat wij open
             zijn over onze prijzen en diensten. Het bereiken van je volledige
-            potentie zou je niet in de min moeten zetten. Heb je specifieke
+            potentie zou je niet in de min moeten zetten. Heeft u specifieke
             vragen? Neem{" "}
             <a href="/contact/" className="underline">
               contact
@@ -103,12 +103,12 @@ const MainSectionSeven = ({ lang }) => {
               <h3>Support</h3>
             </div>
             <p>
-              Heb je al een bestaande Shopify store en voel je je beperkt door
-              je thema’s? Dan ben je bij ons op het juiste adres. Wij maken
-              custom pagina’s en onderdelen voor jouw webshop. Voel je nooit
-              beperkt! Wij zijn in staat om jouw digitale wensen tot vervulling
-              laten komen. Neem contact met ons, op dan kunnen we kijken wat wij
-              voor je kunnen betekenen!
+            Heb je al een bestaande Shopify store en voelt u
+                zich beperkt door de thema’s? Dan bent u bij ons op het juiste
+                adres. Wij maken custom pagina’s en onderdelen voor uw
+                webshop. Voel je nooit beperkt! Wij zijn in staat om uw
+                digitale wensen te vervullen. Neem contact met ons
+                op, dan kunnen we kijken wat wij voor uw kunnen betekenen!
             </p>
             <p>
               Wij zijn ook gespecialiseerd in website snelheid optimalisatie.
