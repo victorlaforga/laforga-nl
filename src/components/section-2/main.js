@@ -20,9 +20,9 @@ const MainSectionTwo = ({ lang }) => {
             van shopify stores.
           </div>
           <p>
-            We maken het eenvoudig om je producten online te verkopen. Als je net
+            We maken het eenvoudig om uw producten online te verkopen. Als u net
             aan je handelsreis begint, online overstapt of een nieuwe
-            productlijn maakt, kunnen we je online winkel binnen de kortste tijd
+            productlijn maakt, kunnen uw online winkel binnen de kortste tijd
             helemaal opzetten.{" "}
           </p>
         </div>

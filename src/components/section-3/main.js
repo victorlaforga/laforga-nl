@@ -31,7 +31,7 @@ const MainSectionThree = ({ lang }) => {
           <br />{" "}
           <p>
             Daarnaast is Shopfiy ontzettend makkelijk om te gebruiken &
-            gebruiksvriendelijk. Binnen een paar clicks heb je al een product
+            gebruiksvriendelijk. Binnen een paar clicks heeft uw al een product
             toegevoegd! Shopify is grenzeloos, verkoop dus ook in het
             buitenland.
           </p>{" "}
@@ -41,8 +41,8 @@ const MainSectionThree = ({ lang }) => {
             <a className="cool-link underline" href="#diensten-prijzen">
               diensten
             </a>{" "}
-            krijg je een gratis Shopify cursus waarin wij in een uur tijd alles
-            uitleggen wat je moet weten!
+            krijgt u een gratis Shopify cursus waarin wij in een uur tijd alles
+            uitleggen wat u moet weten!
           </p>
         </div>
         <div id="video-container">

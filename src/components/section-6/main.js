@@ -71,12 +71,12 @@ const MainSectionSix = ({ lang }) => {
                 Strategie<span id="number">1</span>
               </h3>
               <p>
-                Alleen jouw succes is ons succes. Wij leven ons in en verplaatsen
+                Alleen uw succes is ons succes. Wij leven ons in en verplaatsen
                 ons volledig in de klant en proberen vanuit dit perspectief mee
                 te denken. We brengen quality time door met onze klanten om te
                 ontdekken waar hun merk echt voor staat en ons te verdiepen in
                 het bedrijf. Onze UX-designers analyseren de concurrentie en
-                kijken hoe wij hun voor kunnen zijn.
+                kijken hoe wij hen voor kunnen zijn.
               </p>
             </div>
             <div className={`services-design service`}>
@@ -88,7 +88,7 @@ const MainSectionSix = ({ lang }) => {
                 factor is bij het omzetten van bezoekers in klanten. Met een
                 jong, fris & ambitieus team zijn wij op de hoogte van de laatste
                 trends & ontwerpen wij de meest moderne websites & webshops. Met
-                innovatieve ontwerpoplossingen zorgen we ervoor dat je winkel jouw
+                innovatieve ontwerpoplossingen zorgen we ervoor dat uw winkel uw
                 klanten aanspreekt. We combineren design en digitale innovatie
                 om emotie en verhalen te creëren.
               </p>
@@ -114,12 +114,12 @@ const MainSectionSix = ({ lang }) => {
 
               <p>
                 Heb je al een{" "}
-                <span className="bold">bestaande Shopify store</span> en voel je
-                je beperkt door je thema’s? Dan ben je bij ons op het juiste
-                adres. Wij maken custom pagina’s en onderdelen voor jouw
-                webshop. Voel je nooit beperkt! Wij zijn in staat om jouw
+                <span className="bold">bestaande Shopify store</span> en voelt u
+                zich beperkt door de thema’s? Dan bent u bij ons op het juiste
+                adres. Wij maken custom pagina’s en onderdelen voor uw
+                webshop. Voel je nooit beperkt! Wij zijn in staat om uw
                 digitale wensen te vervullen. Neem contact met ons
-                op, dan kunnen we kijken wat wij voor je kunnen betekenen!
+                op, dan kunnen we kijken wat wij voor uw kunnen betekenen!
               </p>
               <p>
                 Wij zijn ook gespecialiseerd in website snelheid optimalisatie.
