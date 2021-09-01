@@ -22,7 +22,7 @@ const MainSectionTwo = ({ lang }) => {
           <p>
             We maken het eenvoudig om uw producten online te verkopen. Als u net
             aan uw handelsreis begint, online overstapt of een nieuwe
-            productlijn maakt, kunnen uw online winkel binnen de kortste tijd
+            productlijn maakt, kunnen we uw online winkel binnen de kortste tijd
             helemaal opzetten.{" "}
           </p>
         </div>
