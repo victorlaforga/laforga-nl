@@ -31,7 +31,7 @@ const MainSectionThree = ({ lang }) => {
           <br />{" "}
           <p>
             Daarnaast is Shopfiy ontzettend makkelijk om te gebruiken &
-            gebruiksvriendelijk. Binnen een paar clicks heeft uw al een product
+            gebruiksvriendelijk. Binnen een paar clicks heeft u al een product
             toegevoegd! Shopify is grenzeloos, verkoop dus ook in het
             buitenland.
           </p>{" "}
