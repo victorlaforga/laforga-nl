@@ -88,7 +88,7 @@ const TestimonialSection = ({ lang }) => {
             <p>
               “Enthousiaste agency met inzicht. Heeft voor Aerial Access een
               mooie site ontworpen die volledig voldeed aan onze eisen. Denkt
-              mee met ontwerp vanuit de perspectief van de klant en laat ruimte
+              mee met het ontwerp vanuit de perspectief van de klant en laat ruimte
               voor eigen ideeën. Fijne samenwerking met oog voor service."
             </p>
           </div>
@@ -103,7 +103,7 @@ const TestimonialSection = ({ lang }) => {
             <span className="h2">Four Editors</span>
             <p>
               “Erg goed geholpen door Laforga. We zaten met wat problemen op de
-              website, en dit werd direct opgelost. Altijd beschikbaar, snel en
+             en dit werd direct opgelost. Altijd beschikbaar, snel en
               kwalitatief. Thanks!"
             </p>
           </div>
@@ -118,7 +118,7 @@ const TestimonialSection = ({ lang }) => {
             <span className="h2">Maglashic</span>
             <p>
               “Wij zijn zeer tevreden met het resultaat. Laforga luistert goed
-              en heeft gevoel voor wat je wilt. Uitstekende service, snel,
+              en heeft gevoel voor wat je wil. Uitstekende service, snel,
               professioneel, creatief, oplossingsgericht, en persoonlijk. Nooit
               te beroerd om die extra stappen te zetten."
             </p>
@@ -133,13 +133,12 @@ const TestimonialSection = ({ lang }) => {
             />
             <span className="h2">Marinade Studios</span>
             <p>
-              “Wij heb als design agency een fijne samenwerking ervaren met
+              “Wij hebben als design agency een fijne samenwerking ervaren met
               Laforga. Laforga kan goed de Figma designs vertalen naar
-              front/back-end en geeft waar nodig goede tips! Ze zijn in staat om
-              mee te denken waar soms als designer de technische kennis
-              ontbreekt. Dat is erg prettig. De communicatie loopt goed en er
-              wordt hard gewerkt. Kort om ik kan Laforga zeker aan raden voor
-              een goed werkende website.""
+              front/back-end, ook geven ze daar waar nodig is goede tips! Ze zijn in staat om
+              mee te denken waar wij als designers tekort in schieten. Dat is erg prettig. De communicatie loopt goed en er
+              wordt hard gewerkt. Kortom kan ik Laforga zeker aan raden voor
+              een goed werkende web applicatie."
             </p>
           </div>
           <div className="slider__item">

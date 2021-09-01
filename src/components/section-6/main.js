@@ -71,10 +71,10 @@ const MainSectionSix = ({ lang }) => {
                 Strategie<span id="number">1</span>
               </h3>
               <p>
-                Alleen jouw succes is ons succes. Wij leven ons in & verplaatsen
-                ons volledig in de klant, en proberen vanuit dit perspectief mee
+                Alleen jouw succes is ons succes. Wij leven ons in en verplaatsen
+                ons volledig in de klant en proberen vanuit dit perspectief mee
                 te denken. We brengen quality time door met onze klanten om te
-                ontdekken waar hun merk echt voor staat & ons te verdiepen in
+                ontdekken waar hun merk echt voor staat en ons te verdiepen in
                 het bedrijf. Onze UX-designers analyseren de concurrentie en
                 kijken hoe wij hun voor kunnen zijn.
               </p>

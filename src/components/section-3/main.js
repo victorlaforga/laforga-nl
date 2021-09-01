@@ -25,14 +25,14 @@ const MainSectionThree = ({ lang }) => {
           </p>{" "}
           <br />{" "}
           <p>
-            Wij zijn officiele partners met Shopify met een team van Shopify &
+            Wij zijn officiële partners met Shopify met een team van Shopify &
             design experts!
           </p>{" "}
           <br />{" "}
           <p>
-            Daarnaaast is Shopfiy ontzettend makkelijk om te gebruiken &
+            Daarnaast is Shopfiy ontzettend makkelijk om te gebruiken &
             gebruiksvriendelijk. Binnen een paar clicks heb je al een product
-            toegevoegd! Shopify is grenzenloos, verkoop dus ook in het
+            toegevoegd! Shopify is grenzeloos, verkoop dus ook in het
             buitenland.
           </p>{" "}
           <br />{" "}

@@ -92,7 +92,7 @@ const Maglashic = ({ location }) => {
           <p>
             {" "}
             Wij zijn zeer tevreden met het resultaat. Laforga luistert goed en
-            heeft gevoel voor wat je wilt. Uitstekende service, snel,
+            heeft gevoel voor wat je wil. Uitstekende service, snel,
             professioneel, creatief, oplossingsgericht, en persoonlijk. Nooit te
             beroerd om die extra stappen te zetten.
           </p>
