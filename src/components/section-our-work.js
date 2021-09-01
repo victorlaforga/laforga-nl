@@ -10,7 +10,7 @@ const SectionWork = ({ lang }) => {
     centeredSlides: false,
     slidesPerView: "auto",
   };
-  const { maglashic, fourEditors, faminci, fietsenwinkel, aerial } =
+  const { maglashic, fourEditors, delicou, fietsenwinkel, aerial, ilana } =
     useStaticQuery(
       graphql`
         query {
@@ -28,6 +28,13 @@ const SectionWork = ({ lang }) => {
               }
             }
           }
+          ilana: file(relativePath: { eq: "ilara.png" }) {
+            childImageSharp {
+              fluid(quality: 100, maxWidth: 420) {
+                ...GatsbyImageSharpFluid_withWebp
+              }
+            }
+          }
           aerial: file(relativePath: { eq: "aerial2.png" }) {
             childImageSharp {
               fluid(quality: 100, maxWidth: 420) {
@@ -35,7 +42,7 @@ const SectionWork = ({ lang }) => {
               }
             }
           }
-          faminci: file(relativePath: { eq: "faminci-work.jpeg" }) {
+          delicou: file(relativePath: { eq: "delicou.png" }) {
             childImageSharp {
               fluid(quality: 100, maxWidth: 420) {
                 ...GatsbyImageSharpFluid_withWebp
@@ -110,6 +117,42 @@ const SectionWork = ({ lang }) => {
               <BackgroundImage
                 Tag="section"
                 className="thumbnail__col"
+                fluid={ilana.childImageSharp.fluid}
+                backgroundColor={`transparent`}
+                background-position="center"
+                style={{ backgroundPositionX: "0%", cursor: "pointer" }}
+                onClick={(e) => navigate("https://www.ilana.shop/")}
+              >
+                <div className="thumbnail__text ">
+                  <a href="https://www.ilana.shop/">
+                    <h3>Ilana Shop</h3>
+                    <p>
+                    Huidverzorging met natuurlijke ingredienten.
+                    </p>
+                  </a>
+                </div>
+              </BackgroundImage>
+              <BackgroundImage
+                Tag="section"
+                className="thumbnail__col"
+                fluid={delicou.childImageSharp.fluid}
+                backgroundColor={`transparent`}
+                background-position="center"
+                onClick={(e) => navigate("https://eu.deliciou.com/")}
+                style={{ cursor: "pointer" }}
+              >
+                <div className="thumbnail__text">
+                  <a href="https://eu.deliciou.com/">
+                    <h3>Deliciou</h3>
+                    <p>
+                      De lekkerste bacon kruiden met als missie om plantaardig koken makkelijk en lekker voor iedereen te maken!
+                    </p>
+                  </a>
+                </div>
+              </BackgroundImage>
+              <BackgroundImage
+                Tag="section"
+                className="thumbnail__col"
                 fluid={fietsenwinkel.childImageSharp.fluid}
                 backgroundColor={`transparent`}
                 background-position="center"
@@ -144,25 +187,7 @@ const SectionWork = ({ lang }) => {
                   </a>
                 </div>
               </BackgroundImage>
-              <BackgroundImage
-                Tag="section"
-                className="thumbnail__col"
-                fluid={faminci.childImageSharp.fluid}
-                backgroundColor={`transparent`}
-                background-position="center"
-                onClick={(e) => navigate("https://faminci.com/collections/all")}
-                style={{ cursor: "pointer" }}
-              >
-                <div className="thumbnail__text">
-                  <a href="https://faminci.com/collections/all">
-                    <h3>Faminci</h3>
-                    <p>
-                      Premium canvassen voor aan de muur die custom gemaakt
-                      kunnen worden.
-                    </p>
-                  </a>
-                </div>
-              </BackgroundImage>
+              
             </Swiper>
           </div>
         </div>
@@ -224,6 +249,40 @@ const SectionWork = ({ lang }) => {
               <BackgroundImage
                 Tag="section"
                 className="thumbnail__col"
+                fluid={ilana.childImageSharp.fluid}
+                backgroundColor={`transparent`}
+                background-position="center"
+                style={{ backgroundPositionX: "0%", cursor: "pointer" }}
+                onClick={(e) => navigate("https://www.ilana.shop/")}
+              >
+                <div className="thumbnail__text ">
+                  <a href="https://www.ilana.shop/">
+                    <h3>Ilana Shop</h3>
+                    <p>
+                    Skin care with natural ingredients.
+                    </p>
+                  </a>
+                </div>
+              </BackgroundImage>
+              <BackgroundImage
+                Tag="section"
+                className="thumbnail__col"
+                fluid={delicou.childImageSharp.fluid}
+                backgroundColor={`transparent`}
+                background-position="center"
+                onClick={(e) => navigate("https://eu.deliciou.com/")}
+                style={{ cursor: "pointer" }}
+              >
+                <div className="thumbnail__text">
+                  <a href="https://eu.deliciou.com/">
+                    <h3>Delicou</h3>
+                    <p>On a mission to make plant-based cooking easy and delicious for everyone! </p>
+                  </a>
+                </div>
+              </BackgroundImage>
+              <BackgroundImage
+                Tag="section"
+                className="thumbnail__col"
                 fluid={fietsenwinkel.childImageSharp.fluid}
                 backgroundColor={`transparent`}
                 background-position="center"
@@ -258,22 +317,7 @@ const SectionWork = ({ lang }) => {
                   </a>
                 </div>
               </BackgroundImage>
-              <BackgroundImage
-                Tag="section"
-                className="thumbnail__col"
-                fluid={faminci.childImageSharp.fluid}
-                backgroundColor={`transparent`}
-                background-position="center"
-                onClick={(e) => navigate("https://faminci.com/collections/all")}
-                style={{ cursor: "pointer" }}
-              >
-                <div className="thumbnail__text">
-                  <a href="https://faminci.com/collections/all">
-                    <h3>Faminci</h3>
-                    <p>Premium wall canvases that can be custom made .</p>
-                  </a>
-                </div>
-              </BackgroundImage>
+              
             </Swiper>
           </div>
         </div>
