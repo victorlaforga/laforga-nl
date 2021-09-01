@@ -128,7 +128,7 @@ const schemaMarkUp = {
       url: "https://www.laforga.nl",
       logo: "https://www.laforga.nl/static/black-logo-bb711faf29ccbee53ac9728e857a94f3.png",
       description:
-        "Begin vandaag nog met online verkopen met Shopify of schaal je winkel op met custom features. Wij zetten merken en bedrijven om in online legendes. Het bereiken van je volledige potentie zou je niet in de min moeten zetten.",
+        "Begin vandaag nog met online verkopen met Shopify of schaal uw winkel op met custom features. Wij zetten merken en bedrijven om in online legendes. Het bereiken van uw volledige potentie zou uw niet in de min moeten zetten.",
       address: {
         "@type": "PostalAddress",
         streetAddress: "Batavierenplantsoen 17, 2025CJ Haarlem",

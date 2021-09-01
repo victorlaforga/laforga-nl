@@ -15,7 +15,7 @@ const StudyCase = () => {
             Voor MagLashic leveren wij support aan deze bestaande Shopify Store.
             Wij hebben oa. gewerkt aan een custom winkelwagen. Uiteraard zijn
             hier apps voor, maar wij raden het altijd aan om zo min mogelijk
-            apps te gebruiken omdat dit je webshop vertraagd! Ook zit er een
+            apps te gebruiken omdat dit uw webshop vertraagd! Ook zit er een
             Upsell functie in die voor conversieoptimalisatie zorgt!
           </p>
           <div className="type-of-work">

@@ -118,7 +118,7 @@ const TestimonialSection = ({ lang }) => {
             <span className="h2">Maglashic</span>
             <p>
               “Wij zijn zeer tevreden met het resultaat. Laforga luistert goed
-              en heeft gevoel voor wat je wil. Uitstekende service, snel,
+              en heeft gevoel voor wat u wilt. Uitstekende service, snel,
               professioneel, creatief, oplossingsgericht, en persoonlijk. Nooit
               te beroerd om die extra stappen te zetten."
             </p>
