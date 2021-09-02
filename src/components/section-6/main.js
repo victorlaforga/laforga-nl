@@ -71,9 +71,7 @@ const MainSectionSix = ({ lang }) => {
                 Strategie<span id="number">1</span>
               </h3>
               <p>
-                Alleen uw succes is ons succes. Wij leven ons in en verplaatsen
-                ons volledig in de klant en proberen vanuit dit perspectief mee
-                te denken. We brengen quality time door met onze klanten om te
+                Alleen uw succes is ons succes. We verplaatsen ons in de klant en proberen mee te denken vanuit dit perspectief. We brengen quality time door met onze klanten om te
                 ontdekken waar hun merk echt voor staat en ons te verdiepen in
                 het bedrijf. Onze UX-designers analyseren de concurrentie en
                 kijken hoe wij hen voor kunnen zijn.
@@ -84,8 +82,7 @@ const MainSectionSix = ({ lang }) => {
                 Design<span id="number">2</span>
               </h3>
               <p>
-                Wij geloven dat het ontwerp van een website de belangrijkste
-                factor is bij het omzetten van bezoekers in klanten. Met een
+              Wij geloven dat het ontwerp van een website een belangrijke factor is om bezoekers in klanten om te zetten. Met een
                 jong, fris & ambitieus team zijn wij op de hoogte van de laatste
                 trends & ontwerpen wij de meest moderne websites & webshops. Met
                 innovatieve ontwerpoplossingen zorgen we ervoor dat uw winkel uw
