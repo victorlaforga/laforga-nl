@@ -10,7 +10,7 @@ const SectionWork = ({ lang }) => {
     centeredSlides: false,
     slidesPerView: "auto",
   };
-  const { maglashic, fourEditors, delicou, fietsenwinkel, aerial, ilana } =
+  const { maglashic, fourEditors, delicou, fietsenwinkel, aerial, ilana, morcy, ginelwatches } =
     useStaticQuery(
       graphql`
         query {
@@ -22,6 +22,20 @@ const SectionWork = ({ lang }) => {
             }
           }
           fourEditors: file(relativePath: { eq: "four-editors-work.jpeg" }) {
+            childImageSharp {
+              fluid(quality: 100, maxWidth: 420) {
+                ...GatsbyImageSharpFluid_withWebp
+              }
+            }
+          }
+          morcy: file(relativePath: { eq: "morcy.jpeg" }) {
+            childImageSharp {
+              fluid(quality: 100, maxWidth: 420) {
+                ...GatsbyImageSharpFluid_withWebp
+              }
+            }
+          }
+          ginelwatches: file(relativePath: { eq: "ginel.png" }) {
             childImageSharp {
               fluid(quality: 100, maxWidth: 420) {
                 ...GatsbyImageSharpFluid_withWebp
@@ -115,6 +129,30 @@ const SectionWork = ({ lang }) => {
                 </div>
               </BackgroundImage>
               <BackgroundImage
+                ref={bgRef}
+                onStartLoad={() =>
+                  bgRef.current.selfRef.classList.toggle("loading")
+                }
+                onLoad={() => bgRef.current.selfRef.classList.toggle("loading")}
+                Tag="section"
+                className="thumbnail__col"
+                fluid={morcy.childImageSharp.fluid}
+                backgroundColor={`transparent`}
+                background-position="center"
+                style={{ backgroundPositionX: "0%", cursor: "pointer" }}
+                onClick={(e) => navigate("https://morcy-nobasic.com/")}
+              >
+                <div className="thumbnail__text">
+                  <a target="_blank" href="https://morcy-nobasic.com/">
+                    <h3>Morcy</h3>
+                    <p>
+                      {" "}
+                      Het luxe en exclusieve kledingsmerk made & based in Amsterdam. Designed for class. Loved for fit.
+                    </p>
+                  </a>
+                </div>
+              </BackgroundImage>
+              <BackgroundImage
                 Tag="section"
                 className="thumbnail__col"
                 fluid={ilana.childImageSharp.fluid}
@@ -133,19 +171,25 @@ const SectionWork = ({ lang }) => {
                 </div>
               </BackgroundImage>
               <BackgroundImage
+                ref={bgRef}
+                onStartLoad={() =>
+                  bgRef.current.selfRef.classList.toggle("loading")
+                }
+                onLoad={() => bgRef.current.selfRef.classList.toggle("loading")}
                 Tag="section"
                 className="thumbnail__col"
-                fluid={delicou.childImageSharp.fluid}
+                fluid={ginelwatches.childImageSharp.fluid}
                 backgroundColor={`transparent`}
                 background-position="center"
-                onClick={(e) => navigate("https://eu.deliciou.com/")}
-                style={{ cursor: "pointer" }}
+                style={{ backgroundPositionX: "0%", cursor: "pointer" }}
+                onClick={(e) => navigate("https://www.ginelwatches.com/")}
               >
                 <div className="thumbnail__text">
-                  <a href="https://eu.deliciou.com/">
-                    <h3>Deliciou</h3>
+                  <a target="_blank" href="https://www.ginelwatches.com/">
+                    <h3>Ginelwatches</h3>
                     <p>
-                      De lekkerste bacon kruiden met als missie om plantaardig koken makkelijk en lekker voor iedereen te maken!
+                      {" "}
+                      Ontdek de luxe horloges van Ginel. Ze staan bekend om kwaliteit en chic.
                     </p>
                   </a>
                 </div>
@@ -169,6 +213,25 @@ const SectionWork = ({ lang }) => {
                   </a>
                 </div>
               </BackgroundImage>
+              <BackgroundImage
+                Tag="section"
+                className="thumbnail__col"
+                fluid={delicou.childImageSharp.fluid}
+                backgroundColor={`transparent`}
+                background-position="center"
+                onClick={(e) => navigate("https://eu.deliciou.com/")}
+                style={{ cursor: "pointer" }}
+              >
+                <div className="thumbnail__text">
+                  <a href="https://eu.deliciou.com/">
+                    <h3>Deliciou</h3>
+                    <p>
+                      De lekkerste bacon kruiden met als missie om plantaardig koken makkelijk en lekker voor iedereen te maken!
+                    </p>
+                  </a>
+                </div>
+              </BackgroundImage>
+              
               <BackgroundImage
                 Tag="section"
                 className="thumbnail__col"
@@ -247,6 +310,30 @@ const SectionWork = ({ lang }) => {
                 </div>
               </BackgroundImage>
               <BackgroundImage
+                ref={bgRef}
+                onStartLoad={() =>
+                  bgRef.current.selfRef.classList.toggle("loading")
+                }
+                onLoad={() => bgRef.current.selfRef.classList.toggle("loading")}
+                Tag="section"
+                className="thumbnail__col"
+                fluid={morcy.childImageSharp.fluid}
+                backgroundColor={`transparent`}
+                background-position="center"
+                style={{ backgroundPositionX: "0%", cursor: "pointer" }}
+                onClick={(e) => navigate("https://morcy-nobasic.com/")}
+              >
+                <div className="thumbnail__text">
+                  <a target="_blank" href="https://morcy-nobasic.com/">
+                    <h3>Morcy</h3>
+                    <p>
+                      {" "}
+                      The luxury fashion brand based & made in Amsterdam. Designed for class. Loved for fit.
+                    </p>
+                  </a>
+                </div>
+              </BackgroundImage>
+              <BackgroundImage
                 Tag="section"
                 className="thumbnail__col"
                 fluid={ilana.childImageSharp.fluid}
@@ -265,18 +352,27 @@ const SectionWork = ({ lang }) => {
                 </div>
               </BackgroundImage>
               <BackgroundImage
+                ref={bgRef}
+                onStartLoad={() =>
+                  bgRef.current.selfRef.classList.toggle("loading")
+                }
+                onLoad={() => bgRef.current.selfRef.classList.toggle("loading")}
                 Tag="section"
                 className="thumbnail__col"
-                fluid={delicou.childImageSharp.fluid}
+                fluid={ginelwatches.childImageSharp.fluid}
                 backgroundColor={`transparent`}
                 background-position="center"
-                onClick={(e) => navigate("https://eu.deliciou.com/")}
-                style={{ cursor: "pointer" }}
+                style={{ backgroundPositionX: "0%", cursor: "pointer" }}
+                onClick={(e) => navigate("https://www.ginelwatches.com/")}
               >
                 <div className="thumbnail__text">
-                  <a href="https://eu.deliciou.com/">
-                    <h3>Delicou</h3>
-                    <p>On a mission to make plant-based cooking easy and delicious for everyone! </p>
+                  <a target="_blank" href="https://www.ginelwatches.com/">
+                    <h3>Ginelwatches</h3>
+                    <p>
+                      {" "}
+                    
+    Discover the luxury watches from Ginel. They are known for quality and chic.
+                    </p>
                   </a>
                 </div>
               </BackgroundImage>
@@ -299,6 +395,23 @@ const SectionWork = ({ lang }) => {
                   </a>
                 </div>
               </BackgroundImage>
+              <BackgroundImage
+                Tag="section"
+                className="thumbnail__col"
+                fluid={delicou.childImageSharp.fluid}
+                backgroundColor={`transparent`}
+                background-position="center"
+                onClick={(e) => navigate("https://eu.deliciou.com/")}
+                style={{ cursor: "pointer" }}
+              >
+                <div className="thumbnail__text">
+                  <a href="https://eu.deliciou.com/">
+                    <h3>Delicou</h3>
+                    <p>On a mission to make plant-based cooking easy and delicious for everyone! </p>
+                  </a>
+                </div>
+              </BackgroundImage>
+              
               <BackgroundImage
                 Tag="section"
                 className="thumbnail__col"
