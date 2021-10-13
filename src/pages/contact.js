@@ -64,7 +64,7 @@ const ContactPage = ({ location }) => {
         <div className="contact-aanvraag">
           <h3 className="h2">Ready?</h3>
           <p>
-            Ben jij klaar om jouw winkel om te zetten in een digitale machine?
+            Bent u klaar om uw winkel om te zetten in een digitale verkoop machine?
             Of bent u meer dan ready om jouw Shopify Store op te schalen met
             nieuwe features? Vul dan ons formulier in binnen 3 minuten!
           </p>{" "}
