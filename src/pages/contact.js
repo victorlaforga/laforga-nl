@@ -65,7 +65,7 @@ const ContactPage = ({ location }) => {
           <h3 className="h2">Ready?</h3>
           <p>
             Bent u klaar om uw winkel om te zetten in een digitale verkoop machine?
-            Of bent u meer dan ready om jouw Shopify Store op te schalen met
+            Of bent u meer dan ready om uw Shopify Store op te schalen met
             nieuwe features? Vul dan ons formulier in binnen 3 minuten!
           </p>{" "}
           <br />
