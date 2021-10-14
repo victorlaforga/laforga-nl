@@ -108,6 +108,7 @@ const MainSectionFive = ({ lang }) => {
                 class="logogrid__img"
                 alt="ginel watches agency luxury"
                 width={157}
+                
                 height={67}
                 loading="lazy"
               />
