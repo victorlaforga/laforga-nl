@@ -104,11 +104,11 @@ const MainSectionFive = ({ lang }) => {
             <li class="logogrid__item">
               <a href="https://www.ginelwatches.com/" target="_blank" >
               <StaticImage
-                src="../../images/ginel.jpeg"
+                src="../../images/ginel2.jpeg"
                 class="logogrid__img"
                 alt="ginel watches agency luxury"
                 width={157}
-                
+
                 height={67}
                 loading="lazy"
               />
