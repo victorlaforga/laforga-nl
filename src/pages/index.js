@@ -1,5 +1,6 @@
 import React from "react";
 // import { Helmet } from "react-helmet";
+import SectionFaq from "../components/section-faq";
 import {
   SectionOne,
   SectionTwo,
@@ -10,7 +11,7 @@ import {
   SectionSeven,
   OurWork,
   Testimonials,
-  Footer,
+  Footer
 } from "../components";
 import { AccessProvider } from "../contexts/access";
 import "slick-carousel/slick/slick.css";
@@ -46,13 +47,14 @@ const IndexPage = ({ location }) => {
       <AccessProvider>
         <SectionOne />
         <SectionTwo />
-        <SectionThree />
-       
+        <OurWork />
         <SectionFive />
         <SectionFour />
-        <OurWork />
+        <SectionThree />
+
         <SectionSix />
         <SectionSeven />
+<SectionFaq />
         <Testimonials />
         <Footer />
       </AccessProvider>

@@ -2858,6 +2858,9 @@ div.container-services.support#support {
   div.menu {
     width: 104vw;
   }
+  .section-faq div.container {
+    padding: 100px 5% 0px 5%;
+  }
 
   .testimonial-section .slider__item p {
     font-size: 18px;
@@ -3653,6 +3656,67 @@ margin-top: 5px;
   }
   .section-one .main-section div.lf-player-container {
     height: 50% !important;
+  }
+}
+
+.section-faq {
+
+  background-color: #134354;
+  h2 {
+    color: white;
+    margin: 0 auto 25px auto;
+  }
+  h3 {
+    font-size: 28px;
+    margin: 20px 0;
+  }
+  h3,p,span { color: white;}
+  p {
+    font-size: 20px;
+    line-height: 1.6;
+  }
+}
+.single-faq:first-of-type {
+  border-top: 2px solid white;
+}
+.single-faq:last-of-type {
+  border-bottom: 2px solid white;
+}
+.single-faq {
+  border-top: 1px solid white;
+border-bottom: 1px solid white;
+
+}
+.section-faq .container {
+
+  padding: 100px 100px ;
+}
+.question {
+  display: flex;
+  justify-content: space-between;
+}
+.answer {
+  // display: none;
+  padding-bottom: 20px;
+  max-width: 800px;
+}
+.question span {
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+}
+@media screen and (max-width: 767px) {
+  .section-faq h3 {
+    font-size: 22px;
+
+  }
+  .section-faq p {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 641px) {
+  .section-faq .container {
+    padding: 100px 50px;
   }
 }
 
