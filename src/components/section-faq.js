@@ -7,7 +7,7 @@ const SectionFaq = ({ lang }) => {
       <div className="container" lang={lang}>
         <h2>FAQ</h2>
         <Faq
-          defaultOpen={true}
+          defaultOpen
           title="Werken jullie ook voor B2B bedrijven?"
           description="Ja zeker, naast dat wij vooral gefocust zijn op B2C, zijn wij
                   ook in staat om voor B2B bedrijven een online verkoopkanaal
@@ -17,7 +17,6 @@ const SectionFaq = ({ lang }) => {
                   toegang tot hebben."
         />
         <Faq
-          defaultOpen={false}
           title="Hoe krijg ik een prijsvoorstel?"
           description=" Als u op zoek bent naar een digitale agency, vul dan eerst
           ons formuluier die je op de contact pagina kan vinden. We
@@ -35,7 +34,6 @@ const SectionFaq = ({ lang }) => {
           eerdere ontwerpen, etc."
         />
         <Faq
-          defaultOpen={false}
           title="Hoe lang duurt het voordat mijn webshop klaar is?"
           description="Dit is erg afhankelijk van het soort project. Voor een basis
           webshop communiceren wij 10 dagen aan onze klanten. Mits de
@@ -45,7 +43,6 @@ const SectionFaq = ({ lang }) => {
           om kwaliteit te leveren dan haastig te werk gaan."
         />
         <Faq
-          defaultOpen={false}
           title="Ontwerpen jullie ook of coderen jullie alleen?"
           description="Wij zijn een full-service e-commerce agency waarbij wij het
           complete pakket aanbieden. Van strategie tot het developen
@@ -59,7 +56,6 @@ const SectionFaq = ({ lang }) => {
           design en de ontwikkeling van stijlgidsen, en webdesign."
         />
         <Faq
-          defaultOpen={false}
           title="Maken jullie ook websites of alleen webshops?"
           description="Wij zijn een full-service e-commerce agency waarbij wij het
                   complete pakket aanbieden. Van strategie tot het developen

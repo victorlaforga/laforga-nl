@@ -5,7 +5,7 @@ import { Fragment } from "react";
 
 export default function Faq({ defaultOpen, title, description }) {
   return (
-    <Disclosure defaultOpen={defaultOpen}>
+    <Disclosure defaultOpen={defaultOpen ? true : false}>
       {({ open }) => (
         <div className="single-faq">
           <Disclosure.Button as={Fragment}>
