@@ -1685,8 +1685,8 @@ footer {
       display: grid;
       .switch {
         position: absolute;
-    width: 70px;
-    margin-left: 30px;
+        width: 70px;
+        margin-left: 30px;
       }
       .start-project {
         margin-top: 75px;
@@ -1699,7 +1699,10 @@ footer {
   #shopify-img-logo {
     margin: 0 auto;
   }
-  section.section-six div.main-section-six div.services-container .services-support.service {
+  section.section-six
+    div.main-section-six
+    div.services-container
+    .services-support.service {
     position: inherit !important;
     margin-left: -30px;
     max-width: inherit !important;
@@ -1987,7 +1990,10 @@ footer {
   .header {
     height: 90px !important;
   }
-  section.section-six div.main-section-six div.services-container .services-support.service {
+  section.section-six
+    div.main-section-six
+    div.services-container
+    .services-support.service {
     position: inherit !important;
     margin-left: 0px !important;
     max-width: inherit !important;
@@ -2516,17 +2522,16 @@ $logo-max-height: 100px;
           a {
             font-family: "BebasNeue";
             font-weight: 100;
-            
           }
         }
       }
     }
   }
-@media screen and (min-width: 500px) {
-div.menu-nav > nav > ul > li > a {
-  font-size: 40px;
-}
-}
+  @media screen and (min-width: 500px) {
+    div.menu-nav > nav > ul > li > a {
+      font-size: 40px;
+    }
+  }
   .menu-info {
     width: -webkit-fill-available;
 
@@ -3641,18 +3646,17 @@ article.thumbnail-work:nth-of-type(odd) {
   margin-left: 5%;
 }
 
-@media screen and (max-width:456px){
+@media screen and (max-width: 456px) {
   li.content__container__list__item.eng-list {
-margin-left: 10px;
-margin-top: 5px;
-}
+    margin-left: 10px;
+    margin-top: 5px;
+  }
 }
 
-@media screen and (max-width:396px) {
+@media screen and (max-width: 396px) {
   li.content__container__list__item.eng-list {
     margin-left: 0 !important;
     margin-top: 0 !important;
-    
   }
   .section-one .main-section div.lf-player-container {
     height: 50% !important;
@@ -3660,7 +3664,6 @@ margin-top: 5px;
 }
 
 .section-faq {
-
   background-color: #134354;
   h2 {
     color: white;
@@ -3670,7 +3673,11 @@ margin-top: 5px;
     font-size: 28px;
     margin: 20px 0;
   }
-  h3,p,span { color: white;}
+  h3,
+  p,
+  span {
+    color: white;
+  }
   p {
     font-size: 20px;
     line-height: 1.6;
@@ -3684,16 +3691,15 @@ margin-top: 5px;
 }
 .single-faq {
   border-top: 1px solid white;
-border-bottom: 1px solid white;
-
+  border-bottom: 1px solid white;
 }
 .section-faq .container {
-
-  padding: 100px 100px ;
+  padding: 100px 100px;
 }
 .question {
   display: flex;
   justify-content: space-between;
+  cursor: pointer;
 }
 .answer {
   // display: none;
@@ -3708,7 +3714,6 @@ border-bottom: 1px solid white;
 @media screen and (max-width: 767px) {
   .section-faq h3 {
     font-size: 22px;
-
   }
   .section-faq p {
     font-size: 16px;
@@ -3719,4 +3724,23 @@ border-bottom: 1px solid white;
     padding: 100px 50px;
   }
 }
+.enter {
+  transition: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition-duration: 300ms;
+  transition-property: all;
+  display: block;
+}
+.leave {
+  transition: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition-duration: 300ms;
+  transition-property: all;
+  opacity: 0;
+  display: hidden;
+}
 
+.w-6 {
+  width: 24px;
+}
+.h-6 {
+  height: 24px;
+}
