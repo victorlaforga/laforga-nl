@@ -3,7 +3,7 @@ import Faq from "./faq";
 
 const SectionFaq = ({ lang }) => {
   return (
-    <section className="section-faq">
+    <section id="faq"  className="section-faq">
       <div className="container" lang={lang}>
         <h2>FAQ</h2>
         <Faq

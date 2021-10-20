@@ -61,6 +61,15 @@ const Menu = ({ open, toggleMenu, lang }) => {
                   <span itemprop="name">Contact</span>
                 </a>
               </li>
+              <li itemprop="hasPart">
+                <a
+                  itemprop="url"
+                  href="/"
+                  onClick={(e) => toggleMenu(e, "faq")}
+                >
+                  <span itemprop="name">FAQ</span>
+                </a>
+              </li>
             </ul>
           </nav>
         </div>
