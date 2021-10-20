@@ -14,56 +14,56 @@ const SectionWork = ({ lang }) => {
     useStaticQuery(
       graphql`
         query {
-          maglashic: file(relativePath: { eq: "work-maglashic.png" }) {
+          maglashic: file(relativePath: { eq: "work-maglashic.webp" }) {
             childImageSharp {
               fluid(quality: 100) {
                 ...GatsbyImageSharpFluid_withWebp
               }
             }
           }
-          fourEditors: file(relativePath: { eq: "four-editors-work.jpeg" }) {
+          fourEditors: file(relativePath: { eq: "four-editors-work.webp" }) {
             childImageSharp {
               fluid(quality: 100, maxWidth: 420) {
                 ...GatsbyImageSharpFluid_withWebp
               }
             }
           }
-          morcy: file(relativePath: { eq: "morcy.jpeg" }) {
+          morcy: file(relativePath: { eq: "morcy.webp" }) {
             childImageSharp {
               fluid(quality: 100, maxWidth: 420) {
                 ...GatsbyImageSharpFluid_withWebp
               }
             }
           }
-          ginelwatches: file(relativePath: { eq: "ginel.png" }) {
+          ginelwatches: file(relativePath: { eq: "ginel.webp" }) {
             childImageSharp {
               fluid(quality: 100, maxWidth: 420) {
                 ...GatsbyImageSharpFluid_withWebp
               }
             }
           }
-          ilana: file(relativePath: { eq: "ilara.png" }) {
+          ilana: file(relativePath: { eq: "ilara.webp" }) {
             childImageSharp {
               fluid(quality: 100, maxWidth: 420) {
                 ...GatsbyImageSharpFluid_withWebp
               }
             }
           }
-          aerial: file(relativePath: { eq: "aerial2.png" }) {
+          aerial: file(relativePath: { eq: "aerial2.webp" }) {
             childImageSharp {
               fluid(quality: 100, maxWidth: 420) {
                 ...GatsbyImageSharpFluid_withWebp
               }
             }
           }
-          delicou: file(relativePath: { eq: "delicou.png" }) {
+          delicou: file(relativePath: { eq: "delicou.webp" }) {
             childImageSharp {
               fluid(quality: 100, maxWidth: 420) {
                 ...GatsbyImageSharpFluid_withWebp
               }
             }
           }
-          fietsenwinkel: file(relativePath: { eq: "fietsenwinkel.jpg" }) {
+          fietsenwinkel: file(relativePath: { eq: "fietsenwinkel.webp" }) {
             childImageSharp {
               fluid(quality: 100, maxWidth: 420) {
                 ...GatsbyImageSharpFluid_withWebp
