@@ -23,7 +23,7 @@ const MainSectionTwo = ({ lang }) => {
             We maken het eenvoudig om uw producten online te verkopen. Als u net
             aan uw handelsreis begint, online overstapt of een nieuwe
             productlijn maakt, kunnen we uw online winkel binnen de kortste tijd
-            helemaal opzetten.{" "}
+            helemaal opzetten.<br /><br /> Breng je in-store en online verkoop samen met Shopify. Krijg vanuit één weergave inzicht in je bedrijf, zodat je slimmer kunt werken, sneller kunt handelen en groter kunt denken.{" "}
           </p>
         </div>
       </div>
