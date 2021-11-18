@@ -18,6 +18,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Seo from "../components/seo";
 import image from "../images/black-logo.png";
+import whatsapp from "../images/WhatsApp-Logo.png"
 // import Menu from "../components/menu";
 const IndexPage = ({ location }) => {
   const metaImage = {
@@ -45,6 +46,11 @@ const IndexPage = ({ location }) => {
         pathname={location.pathname}
       />
       <AccessProvider>
+        <div className="whatsapp-contact">
+        <a href="https://api.whatsapp.com/send?phone=+31628340312">
+          <img src={whatsapp} />
+          </a>
+        </div>
         <SectionOne />
         <SectionTwo />
         <OurWork />
