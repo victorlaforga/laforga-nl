@@ -10,7 +10,7 @@ const SectionWork = ({ lang }) => {
     centeredSlides: false,
     slidesPerView: "auto",
   };
-  const { maglashic, fourEditors, delicou, fietsenwinkel, aerial, ilana, morcy, ginelwatches } =
+  const { maglashic, celestial, fourEditors, delicou, fietsenwinkel, aerial, ilana, morcy, ginelwatches } =
     useStaticQuery(
       graphql`
         query {
@@ -22,6 +22,13 @@ const SectionWork = ({ lang }) => {
             }
           }
           fourEditors: file(relativePath: { eq: "four-editors-work.webp" }) {
+            childImageSharp {
+              fluid(quality: 100, maxWidth: 420) {
+                ...GatsbyImageSharpFluid_withWebp
+              }
+            }
+          }
+          celestial: file(relativePath: { eq: "celestial.jpeg" }) {
             childImageSharp {
               fluid(quality: 100, maxWidth: 420) {
                 ...GatsbyImageSharpFluid_withWebp
@@ -83,6 +90,31 @@ const SectionWork = ({ lang }) => {
         <div className="recent-work">
           <div className="recent-work-container">
             <Swiper {...sliderParams}>
+              
+              <BackgroundImage
+                ref={bgRef}
+                onStartLoad={() =>
+                  bgRef.current.selfRef.classList.toggle("loading")
+                }
+                onLoad={() => bgRef.current.selfRef.classList.toggle("loading")}
+                Tag="section"
+                className="thumbnail__col"
+                fluid={celestial.childImageSharp.fluid}
+                backgroundColor={`transparent`}
+                background-position="center"
+                style={{ backgroundPositionX: "0%", cursor: "pointer" }}
+                onClick={(e) => navigate("/maglashic")}
+              >
+                <div className="thumbnail__text">
+                  <a target="_blank" href="https://www.celestialcrystals.store">
+                    <h3>Celestial Crystals</h3>
+                    <p>
+                      {" "}
+                      Fashion merk ontworpen in de toekomst met oog voor detail.
+                    </p>
+                  </a>
+                </div>
+              </BackgroundImage>
               <BackgroundImage
                 ref={bgRef}
                 onStartLoad={() =>
@@ -108,7 +140,6 @@ const SectionWork = ({ lang }) => {
                   </a>
                 </div>
               </BackgroundImage>
-
               <BackgroundImage
                 Tag="section"
                 className="thumbnail__col"
@@ -265,6 +296,30 @@ const SectionWork = ({ lang }) => {
         <div className="recent-work">
           <div className="recent-work-container">
             <Swiper {...sliderParams}>
+            <BackgroundImage
+                ref={bgRef}
+                onStartLoad={() =>
+                  bgRef.current.selfRef.classList.toggle("loading")
+                }
+                onLoad={() => bgRef.current.selfRef.classList.toggle("loading")}
+                Tag="section"
+                className="thumbnail__col"
+                fluid={celestial.childImageSharp.fluid}
+                backgroundColor={`transparent`}
+                background-position="center"
+                style={{ backgroundPositionX: "0%", cursor: "pointer" }}
+                onClick={(e) => navigate("/maglashic")}
+              >
+                <div className="thumbnail__text">
+                  <a target="_blank" href="https://www.celestialcrystals.store">
+                    <h3>Celestial Crystals</h3>
+                    <p>
+                      {" "}
+                      Fashion brand designed in the future. Wear Celestial and get lost in space with us.
+                    </p>
+                  </a>
+                </div>
+              </BackgroundImage>
               <BackgroundImage
                 ref={bgRef}
                 onStartLoad={() =>
