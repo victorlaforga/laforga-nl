@@ -103,7 +103,7 @@ const SectionWork = ({ lang }) => {
                 backgroundColor={`transparent`}
                 background-position="center"
                 style={{ backgroundPositionX: "0%", cursor: "pointer" }}
-                onClick={(e) => navigate("/maglashic")}
+                onClick={(e) => navigate("https://www.celestialcrystals.store")}
               >
                 <div className="thumbnail__text">
                   <a target="_blank" href="https://www.celestialcrystals.store">
