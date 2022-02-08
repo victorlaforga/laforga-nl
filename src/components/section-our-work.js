@@ -10,7 +10,7 @@ const SectionWork = ({ lang }) => {
     centeredSlides: false,
     slidesPerView: "auto",
   };
-  const { maglashic, celestial, fourEditors, delicou, fietsenwinkel, aerial, ilana, morcy, ginelwatches } =
+  const { smoothly ,maglashic, celestial, fourEditors, delicou, fietsenwinkel, aerial, ilana, morcy, ginelwatches } =
     useStaticQuery(
       graphql`
         query {
@@ -29,6 +29,13 @@ const SectionWork = ({ lang }) => {
             }
           }
           celestial: file(relativePath: { eq: "celestial.jpeg" }) {
+            childImageSharp {
+              fluid(quality: 100, maxWidth: 420) {
+                ...GatsbyImageSharpFluid_withWebp
+              }
+            }
+          }
+          smoothly: file(relativePath: { eq: "smoothly.jpeg" }) {
             childImageSharp {
               fluid(quality: 100, maxWidth: 420) {
                 ...GatsbyImageSharpFluid_withWebp
@@ -90,7 +97,30 @@ const SectionWork = ({ lang }) => {
         <div className="recent-work">
           <div className="recent-work-container">
             <Swiper {...sliderParams}>
-              
+            <BackgroundImage
+                ref={bgRef}
+                onStartLoad={() =>
+                  bgRef.current.selfRef.classList.toggle("loading")
+                }
+                onLoad={() => bgRef.current.selfRef.classList.toggle("loading")}
+                Tag="section"
+                className="thumbnail__col"
+                fluid={smoothly.childImageSharp.fluid}
+                backgroundColor={`transparent`}
+                background-position="center"
+                style={{ backgroundPositionX: "0%", cursor: "pointer" }}
+                onClick={(e) => navigate("https://www.nl.smoothly.com")}
+              >
+                <div className="thumbnail__text">
+                  <a target="_blank" href="https://www.nl.smoothly.com">
+                    <h3>Smoothly</h3>
+                    <p>
+                      {" "}
+                      Laat jouw schoonheid nog meer stralen met doelgerichte supplementen, samengesteld uit vegan ingrediënten. 
+                    </p>
+                  </a>
+                </div>
+              </BackgroundImage>
               <BackgroundImage
                 ref={bgRef}
                 onStartLoad={() =>

@@ -52,8 +52,7 @@ const MainSectionFive = ({ lang }) => {
               />
               </a>
             </li>
-            <li class="logogrid__item">
-          
+            <li class="logogrid__item"> 
               <StaticImage
                 src="../../images/clientsLogo/11-removebg-preview.png"
                 class="logogrid__img"
@@ -61,7 +60,6 @@ const MainSectionFive = ({ lang }) => {
                 width={200}
                 height={99}
                 loading="lazy"
-
               />
         
             </li>
@@ -78,6 +76,30 @@ const MainSectionFive = ({ lang }) => {
               </a>
             </li>
             <li class="logogrid__item">
+            <a href="https://www.nl.smoothly.com/" target="_blank" >
+              <StaticImage
+                src="../../images/clientsLogo/logo-smoothly.png"
+                class="logogrid__img smoothly"
+                alt="smoothly client ecommerce developer code"
+                width={210}
+                height={59}
+                loading="lazy"
+              />
+              </a>
+            </li>
+            <li class="logogrid__item">
+            <a href="https://socksfactory.nl/" target="_blank" >
+              <StaticImage
+                src="../../images/clientsLogo/logo-socks.png"
+                class="logogrid__img"
+                alt="socksfactory client ecommerce developer code"
+                width={177}
+                height={64}
+                loading="lazy"
+              />
+              </a>
+            </li>
+            <li class="logogrid__item">
             <a href="https://faminci.nl/" target="_blank" >
               <StaticImage
                 src="../../images/clientsLogo/faminci.png"
@@ -89,18 +111,22 @@ const MainSectionFive = ({ lang }) => {
               />
               </a>
             </li>
+          
             <li class="logogrid__item">
             <a href="https://www.maneti.nl/" target="_blank" >
               <StaticImage
                 src="../../images/clientsLogo/logo_zwart.png"
                 class="logogrid__img"
-                alt="Nike"
+                alt="client ecommerce developer code"
                 width={200}
                 height={59}
                 loading="lazy"
               />
               </a>
             </li>
+          
+
+          
             <li class="logogrid__item">
               <a href="https://www.ginelwatches.com/" target="_blank" >
               <StaticImage
