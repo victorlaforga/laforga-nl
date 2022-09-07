@@ -2735,6 +2735,7 @@ div.typeform-widget {
             #f3e04e 0%,
             #e3d239 100%
           );
+          margin: 15px 0;
           width: fit-content;
           border-radius: 10px;
           padding: 15px 20px;
@@ -3760,3 +3761,6 @@ article.thumbnail-work:nth-of-type(odd) {
 
 }
 
+.pricing {
+  display: none;
+}

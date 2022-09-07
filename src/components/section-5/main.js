@@ -88,13 +88,13 @@ const MainSectionFive = ({ lang }) => {
               </a>
             </li>
             <li class="logogrid__item">
-            <a href="https://socksfactory.nl/" target="_blank" >
+            <a href="https://dollysports.com" target="_blank" >
               <StaticImage
-                src="../../images/clientsLogo/logo-socks.png"
+                src="../../images/clientsLogo/ds-logo.png"
                 class="logogrid__img"
-                alt="socksfactory client ecommerce developer code"
-                width={177}
-                height={64}
+                alt="dolly sports agency client ecommerce developer code"
+                width={130}
+                height={100}
                 loading="lazy"
               />
               </a>
@@ -136,6 +136,27 @@ const MainSectionFive = ({ lang }) => {
                 width={157}
 
                 height={67}
+                loading="lazy"
+              />
+              </a>
+            </li>
+            <li class="logogrid__item">
+              <a href="https://www.gamehero.eu/" target="_blank" >
+              <StaticImage
+                src="../../images/clientsLogo/gamehero-logo.png"
+                class="logogrid__img"
+                alt="gamehero gamestoelen accessoires agency gaming ecommerce"
+                
+                loading="lazy"
+              />
+              </a>
+            </li>
+            <li class="logogrid__item">
+              <a href="https://www.rovary.com/" target="_blank" >
+              <StaticImage
+                src="../../images/clientsLogo/rovary-logo.png"
+                class="logogrid__img"
+                alt="rovary accessoires agency co2"
                 loading="lazy"
               />
               </a>

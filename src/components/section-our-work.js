@@ -10,7 +10,7 @@ const SectionWork = ({ lang }) => {
     centeredSlides: false,
     slidesPerView: "auto",
   };
-  const { smoothly ,maglashic, celestial, fourEditors, delicou, fietsenwinkel, aerial, ilana, morcy, ginelwatches } =
+  const { smoothly, wall , dolly ,maglashic, gamehero, celestial, fourEditors, delicou, fietsenwinkel, aerial, ilana, morcy, ginelwatches } =
     useStaticQuery(
       graphql`
         query {
@@ -28,7 +28,21 @@ const SectionWork = ({ lang }) => {
               }
             }
           }
+          dolly: file(relativePath: { eq: "dolly.jpg" }) {
+            childImageSharp {
+              fluid(quality: 100, maxWidth: 420) {
+                ...GatsbyImageSharpFluid_withWebp
+              }
+            }
+          }
           celestial: file(relativePath: { eq: "celestial.jpeg" }) {
+            childImageSharp {
+              fluid(quality: 100, maxWidth: 420) {
+                ...GatsbyImageSharpFluid_withWebp
+              }
+            }
+          }
+          gamehero: file(relativePath: { eq: "gamehero_backtowork.png" }) {
             childImageSharp {
               fluid(quality: 100, maxWidth: 420) {
                 ...GatsbyImageSharpFluid_withWebp
@@ -77,6 +91,13 @@ const SectionWork = ({ lang }) => {
               }
             }
           }
+          wall: file(relativePath: { eq: "wall.png" }) {
+            childImageSharp {
+              fluid(quality: 100, maxWidth: 420) {
+                ...GatsbyImageSharpFluid_withWebp
+              }
+            }
+          }
           fietsenwinkel: file(relativePath: { eq: "fietsenwinkel.webp" }) {
             childImageSharp {
               fluid(quality: 100, maxWidth: 420) {
@@ -87,6 +108,7 @@ const SectionWork = ({ lang }) => {
         }
       `
     );
+
   const bgRef = useRef();
   if (!lang) {
     return (
@@ -97,6 +119,29 @@ const SectionWork = ({ lang }) => {
         <div className="recent-work">
           <div className="recent-work-container">
             <Swiper {...sliderParams}>
+            <BackgroundImage
+                ref={bgRef}
+                onStartLoad={() =>
+                  bgRef.current.selfRef.classList.toggle("loading")
+                }
+                onLoad={() => bgRef.current.selfRef.classList.toggle("loading")}
+                Tag="section"
+                className="thumbnail__col"
+                fluid={dolly.childImageSharp.fluid}
+                backgroundColor={`transparent`}
+                background-position="center"
+                style={{ backgroundPositionX: "0%", cursor: "pointer" }}
+                onClick={(e) => navigate("https://www.dollysports.com/")}
+              >
+                <div className="thumbnail__text">
+                  <a target="_blank" href="https://www.dollysports.com/">
+                    <h3>Dolly Sports</h3>
+                    <p>
+                      {" "}
+                      Dolly Sports creëert iconische vrijetijds kleding voor alledaagse kampioenen.                    </p>
+                  </a>
+                </div>
+              </BackgroundImage>
             <BackgroundImage
                 ref={bgRef}
                 onStartLoad={() =>
@@ -117,6 +162,30 @@ const SectionWork = ({ lang }) => {
                     <p>
                       {" "}
                       Laat jouw schoonheid nog meer stralen met doelgerichte supplementen, samengesteld uit vegan ingrediënten. 
+                    </p>
+                  </a>
+                </div>
+              </BackgroundImage>
+              <BackgroundImage
+                ref={bgRef}
+                onStartLoad={() =>
+                  bgRef.current.selfRef.classList.toggle("loading")
+                }
+                onLoad={() => bgRef.current.selfRef.classList.toggle("loading")}
+                Tag="section"
+                className="thumbnail__col"
+                fluid={gamehero.childImageSharp.fluid}
+                backgroundColor={`transparent`}
+                background-position="center"
+                style={{ backgroundPositionX: "0%", cursor: "pointer" }}
+                onClick={(e) => navigate("https://www.gamehero.eu")}
+              >
+                <div className="thumbnail__text">
+                  <a target="_blank" href="https://www.gamehero.eu">
+                    <h3>Gamehero</h3>
+                    <p>
+                      {" "}
+                      Gamehero is een toonaangevende ontwikkelaar van hoogwaardige gaming accessoires in de Benelux en Duitsland.
                     </p>
                   </a>
                 </div>
@@ -166,6 +235,30 @@ const SectionWork = ({ lang }) => {
                       {" "}
                       Maakt wimpers aanbrengen eenvoudiger dan ooit met een
                       natuurlijke look.
+                    </p>
+                  </a>
+                </div>
+              </BackgroundImage>
+              <BackgroundImage
+                ref={bgRef}
+                onStartLoad={() =>
+                  bgRef.current.selfRef.classList.toggle("loading")
+                }
+                onLoad={() => bgRef.current.selfRef.classList.toggle("loading")}
+                Tag="section"
+                className="thumbnail__col"
+                fluid={wall.childImageSharp.fluid}
+                backgroundColor={`transparent`}
+                background-position="center"
+                style={{ backgroundPositionX: "0%", cursor: "pointer" }}
+                onClick={(e) => navigate("https://www.wallstraight.nl")}
+              >
+                <div className="thumbnail__text">
+                  <a href="/maglashic/">
+                    <h3>Wallstraight</h3>
+                    <p>
+                      {" "}
+                      Sfeervolle wanddecoratie. Schilderijen op diverse materialen en formaten.
                     </p>
                   </a>
                 </div>
