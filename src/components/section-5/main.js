@@ -75,17 +75,7 @@ const MainSectionFive = ({ lang }) => {
               />
               </a>
             </li>
-            <li class="logogrid__item">
-            <a href="https://www.nl.smoothly.com/" target="_blank" >
-              <StaticImage
-                src="../../images/clientsLogo/logo-smoothly.png"
-                class="logogrid__img smoothly"
-                alt="smoothly client ecommerce developer code"
-                width={210}
-                height={59}
-                loading="lazy"
-              />
-              </a>
+       
             </li>
             <li class="logogrid__item">
             <a href="https://dollysports.com" target="_blank" >
