@@ -75,8 +75,7 @@ const MainSectionFive = ({ lang }) => {
               />
               </a>
             </li>
-       
-            </li>
+           
             <li class="logogrid__item">
             <a href="https://dollysports.com" target="_blank" >
               <StaticImage
